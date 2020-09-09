@@ -1,0 +1,452 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #fff;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+ img {
+    vertical-align: middle;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+ textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+     font-family: 'proxima_nova_rgregular';
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    background-color:#ffffff;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.col-md-4 {
+	padding-bottom: 20px;
+}
+
+.row {
+margin-right: 0px;
+margin-left: 0px;
+}
+
+.navbar-default {
+border-color: transparent;
+background-color: #dadada;
+}
+
+.navbar-toggle {
+border-color: transparent;
+border: 0px solid transparent;
+}
+
+
+hr {
+    position: relative;
+    border: none;
+}
+
+hr:before {
+    content: " ";
+    position: absolute;
+    top: 8px;
+    left: 48%;
+    width: 5%;
+    height: 1px;
+    background: #333;
+}
+
+ul{ list-style:none;  margin:0;}
+li{ float:left;}
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    color: #000000;
+    margin:0px;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 20px;
+    margin: 3px 0px 0px 0px;
+    color: #313e50;
+    font-size:14px;
+
+}
+
+h4{ font-size:18px;}
+h1{ font-size:33px; color:#1b2b5c;}
+
+.centered {
+    text-align: center;
+}
+
+blockquote cite:before {
+    content: "-- "
+}
+
+
+/* Links */
+a {
+    color: #000000;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #000000;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* ============================== Common Styles ==============================*/
+.f-left{ float:left;}
+.f-right{ float:right;}
+.m-t-25{ margin-top:25px;}
+.no-margin{ margin:0px !important;}
+.no-padding{ padding:0px;}
+.padding-50{ padding:50px 0;}
+.p-r-0{ padding-right:0px;}
+.p-l-r-0{ padding-left:0px; padding-right:0px;}
+.container .p-b-15{ padding-bottom:15px;}
+.p-b-50{ padding-bottom:50px;}
+.p-b-36{ padding-bottom:36px;}
+.main-container .p-b-80{ padding-bottom:80px;}
+.container .m-t-0{ margin-top:0px;}
+.container .m-b-0{ margin-bottom:0px;}
+.clearfix{ clear:both;}
+
+
+
+/* ============================== Index Page Styles ==============================*/
+/*==Header styles==*/
+.navbar-header{ float:left;}
+.navbar{ background-color:#1f2f60; padding:5px 0; margin-bottom:0px; }
+.navbar-nav{border-right:1px solid #344b90; }
+.navigation ul{ padding-left:15px;}
+.navigation ul li a{ color:#ffffff;}
+.nav > li > a:hover, .nav > li > a:focus{ background-color:transparent;}
+.icon-nav .fa{ font-size:18px; color:#ffffff;}
+.navigation .navbar ul li, .icon-nav .navbar ul li{ margin-right:15px;}
+.nav > li > a{ padding:0px;}
+.navigation, .icon-nav{ padding:30px 0px 20px 0; float:left;}
+.navbar-nav > li, .icon-nav ul li a{ margin-right:25px;}
+.icon-nav .fa{ font-size:20px;}
+
+.carousel-indicators li{ background-color:#c0c3c9; border:0; width:18px; height:18px; margin-right:8px;}
+.carousel-indicators .active{ width:18px; height:18px; background-color: #2a479d; margin-right:8px;}
+.carousel-indicators { left:11%;margin-left:0px;}
+.carousel-caption.caption-text{ top:25%; text-shadow: none; left:10%;}
+.carousel-caption.caption-text h2{color:#1b2b5c; font-weight: bold; font-size: 39px; text-align:left;}
+.carousel-caption h2 span{ font-weight: normal;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{ width:100%;}
+
+/*==Slider-form==*/
+.form{ background-color:#2a479d;width:293px; border-radius:5px; padding:10px 15px 0px 15px; position:absolute; right:16%; top:16%; z-index:5659;}
+.form-list{ margin-top:7px;}
+.form-list b{height:3px;background-color:#4460b2; width:76%;display:inherit;margin:0px auto;}
+.form-list ul{padding:0px;margin:0px auto;text-align:center;display:inline-block;width:100%;}
+.form-list li{  float:left; margin-top:-16px;width:33%; text-align:center;}
+.form-list li span{ height:35px;color:#fff; font-weight:bold; font-size:16px;width:35px; padding-top: 8px; display:inline-block;background:#4460b2; border-radius:40px; text-align:center;}
+.list.active{ background-color:#00ac81;}
+.form-list ul li a{ padding-top:10px;display:inherit; font-size:13px; color:#ffffff;}
+.form-list ul li a:hover{ color:#ffffff;}
+.white-bg{ background-color:#ffffff; border-radius:5px; margin:15px 0;}
+.btn-next{ background-color:#1f2f60; width:100%; font-size:16px; color:#ffffff;}
+.btn:hover, .btn:focus, .btn.focus{ color:#ffffff;}
+.white-bg-upper{ padding:5px 15px 15px;}
+.white-bg-upper p{ color:#1b2b5c; font-weight:600;}
+.btn-next .fa{ padding-left:10px; font-size:16px;}
+.middle select{width:99%; border:1px solid #bfc1c5;  height:34px; padding:6px 0px; margin-top:10px;font-size:14px; color:#aaacb1;text-indent:12px;-webkit-appearance: none; -moz-appearance: none; background:#fff url(../images/arrow.png) no-repeat right 10px center; }
+.white-bg .fa{ padding-right:10px;}
+.white-bg-bottom{ border-top:2px solid #dfe0e2; padding:9px 0px 10px 0;}
+.white-bg-bottom p{ color:#5f636f;}
+.white-bg-bottom img{ margin-right:7px;}
+.form-list ul li span.active{ background-color:#00ac81;}
+.form h3{ color:#fff; font-size:26px; text-align:center; padding-bottom: 20px;}
+
+/*==Choose type Loan==*/
+.main-heading{ padding:50px 0 45px 0;}
+.loan{position:relative;}
+.loan h4{ color:#2c499e; padding:20px 0 15px; min-height:79px; font-weight:600;}
+.box-icon{ border-right:1px solid #989898;border-bottom:1px solid #989898;border-top:1px solid #989898; background-color:#ffffff; padding:40px 10px 30px;position:relative;}
+.box-icon:first-child{border-left:1px solid #989898;}
+.box-icon:last-child{border-right:1px solid #989898;}
+.box-icon span{ background-image: url(../images/sprite.png); display:block; margin:0px auto; width:119px; height:89px;}
+.box-icon span.apply{ background-position: -53px -24px;}
+.box-icon:hover span.apply{ background-position: -53px -123px;}
+.box-icon span.loan-i{ background-position: -223px -22px;}
+.box-icon:hover span.loan-i{ background-position: -223px -128px;}
+.box-icon span.home{ background-position:-371px -21px;}
+.box-icon:hover span.home{ background-position: -371px -131px;}
+.box-icon span.product{ background-position: -528px -32px;}
+.box-icon:hover span.product{ background-position: -528px -142px;}
+.box-icon:hover{background-color:#234099;border-bottom:1px solid #234099;}
+.box-icon:hover h4{color:#ffffff;}
+.box-icon p{ color:#2c499e;}
+.box-icon:hover p{ color:#b6c5f2;}
+.btn-group{ display:none; margin-top:20px; text-align:center;}
+.btn-d{ background-color:transparent; margin-left:-4px !important; color:#b6c5f2; border:1px solid #b6c5f2; padding:9px 19px; float:none!important;}
+.box-icon:hover .btn-group{ display:block;}
+.btn-d:hover{ color:#b6c5f2;}
+.border-right{border-right:none;}
+
+
+/*==Useful Tools==*/
+.useful-tools{ background-color:#eef6fd; margin-top:25px; padding-bottom:50px;}
+.border-r-b{border-right:1px solid #bac1ca; border-bottom:1px solid #bac1ca;}
+.border-b{border-bottom:1px solid #bac1ca;}
+.border-r{border-right:1px solid #bac1ca;}
+.useful-tools p{ color:#313e50;}
+.useful-tools h4{ color:#2a2a2b; padding:0px; font-weight:600;}
+.p-l-0{ padding-left:0px;}
+.pad-20{ padding:20px 0;}
+.pad-l-30{ padding-left:30px;}
+
+/*==Scroll Up Styles==*/
+.return-to-top{ position:relative;}
+#return-to-top { position: absolute; right: 3%; bottom:-27px; display: block; text-decoration: none;}
+
+/*==Footer styles==*/
+footer{ background-color:#313e50; padding:35px 0 25px;}
+footer p{ color:#fff;}
+footer .fa{ font-size:30px; color:#fff; margin-right:8px;}
+.phone{ margin-left:25px;}
+.upper-footer{ border-bottom:1px solid #455163; padding-bottom:12px;}
+.footer-text{ margin-top:20px;}
+footer ul{ padding-left:0px; padding-top:20px;}
+footer ul li{ color:#7a8697; margin-right:5px;}
+footer ul li a{ color:#7a8697; font-size:12px;}
+footer ul li a:hover{ color:#ffffff;}
+
+/* ============================== Product Page Styles ==============================*/
+.slider .carousel-caption.caption-text{ top:35%;}
+.slider h5{ color:#2a479d; font-size:26px; font-weight:100; text-align:left;}
+.slider h2{ color:#1b2b5c; font-size:40px; font-weight:bold; }
+.product-list ul{ list-style:disc; color:#2a479d; padding-left:15px;}
+.product-list ul li{ float:none;}
+.categories { margin:50px 0;}
+.categories h4, .partner-tabs h4{ color:#2a479d; font-weight:600; margin:10px 0;}
+.category-bg{ background-color:#f0f4f7; border:6px solid #fff;}
+.product-grey-bg{ background-color:#f5f5f5; border:7px solid #fff;}
+.learn-more{ background: #2a479d; color:#fff; padding:6px 30px; font-size:16px; margin-top:15px;}
+.pad-35{ padding:35px 0;}
+.banner-text{ padding:13% 0 13% 2%;}
+.product-bg{ background: url(../images/product-bg.png) no-repeat top center; background-size:cover; width:100%; position:relative;}
+
+/* ============================== Fixed Rate Page Styles ==============================*/
+.fixed-rate-bg{ background: url(../images/fixed-rate-bg.png) no-repeat top center; background-size:cover; width:100%; position:relative;}
+.fixed-rate-bg .banner-text{ padding:16% 0;}
+.banner-img-width{ width:13%;}
+.fixed-rate-overview h3{ font-weight:600; color:#2a479d; margin-bottom:15px;}
+.fixed-rate-list ul li{ padding-bottom:8px; margin-bottom:8px; border-bottom:1px solid #e5e6e7;}
+.fixed-rate-list ul li:last-child{ border-bottom:none;}
+.fixe-rate-feature h4{ margin-top:0px; font-size:18px;}
+.green-bg{ background-color:#00ac81; padding:25px 0px;}
+.green-bg h2{ color:#fff;}
+.white-btn{ background-color:#fff; color:#00ac81; font-size:20px; font-weight:500; padding:8px 25px;}
+.white-btn:hover{ color:#00ac81;}
+.green-bg .quote{ border-right:1px solid #55c9ac; padding:50px 30px 50px 0;}
+.green-bg .launch{padding:50px 0px 50px 30px;}
+#accordion-b-modal .panel-heading .panel-title a span.arrow.arrow-down { background: url(../images/arrow-down.png) left top no-repeat;}
+#accordion-b-modal .panel-heading .panel-title a {line-height: 62px; padding: 0 30px; display: block; font-size: 24px;}
+#accordion-b-modal .panel-heading .panel-title a span.arrow.arrow-up { background: url(../images/arrow-up.png) left top no-repeat;}
+.faq h4{ font-size:18px; font-weight:500;}
+.faq .xclose a:hover, .faq .xclose a:focus{ color:#2a479d;}
+.faq .panel-heading{ border-radius:0px; padding:5px 10px;}
+.faq .panel{ border:none; box-shadow: none; margin-bottom:13px;}
+.faq .panel-default > .panel-heading{ color:#2a479d;}
+.faq .panel-group .panel-heading + .panel-collapse .panel-body{ border:none; background:#eef6fd;}
+.faq .panel a{ display:block; padding:0px 15px;}
+.faq .panel-heading .panel-title a span.sign{width: 25px; height: 25px; display: inline-block; float: right; position: relative;}
+.faq .panel-heading .panel-title a span.plus{ background: url(../images/plus.png) left top no-repeat; margin-top:2px;}
+.faq .panel-heading .panel-title a span.minus{ background: url(../images/minus.png) left top no-repeat; margin-top:10px;}
+.faq .xopen{ background-color:#3b70cd;}
+.faq .xopen h4{ color:#fff;}
+.faq .xclose h4{color:#2a479d;}
+.faq .xopen a:hover, .faq .xopen a:focus{ color:#fff;}
+
+/* ============================== Purchase & Refinance Page Styles ==============================*/
+.blue-bg{ background-color:#3b70cd; margin-top:50px;}
+.blue-bg h1{ color:#fff;}
+.choose-field h4{ color:#2a479d; font-size:19px; font-weight:600;}
+.choose-field .panel-group .panel{ border-radius:0px; margin-bottom:25px;}
+.choose-field p{ margin-top:14px;}
+.choose-field .panel-heading{ padding:25px;}
+.choose-field .panel-body{ padding:20px 25px; background:#fff;}
+.choose-field .panel-body a:hover, .choose-field .panel-body a:focus{ color:#fff;}
+.choose-field a:hover, .choose-field a:focus{ color:#2a479d;}
+.choose-field .panel-title a{ display:block;}
+.choose-field .panel-heading .panel-title a span.arrow{width: 20px; height: 12px; display: inline-block; float: right; position: relative;}
+.choose-field .panel-heading .panel-title a span.arrow-up{ background: url(../images/arrow-up.png) left top no-repeat;}
+.choose-field .panel-heading .panel-title a span.arrow-down{ background: url(../images/arrow-down.png) left top no-repeat;}
+
+/* ============================== Resources Page Styles ==============================*/
+.resources-bg{ background: url(../images/resources-bg.png) no-repeat top center; background-size:cover; width:100%; position:relative;}
+.resources-bg h5, .faq-bg h5, .contact-bg h5{color:#1b2b5c; margin-top:15px;}
+.resources-tabs .nav-tabs{ border-bottom:none;}
+.resources-tabs .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ border:none; color:#2a479d;}
+.resources-tabs .nav-tabs > li > a{ border:none; color:#2a2a2b; font-size:16px;}
+.resources-tabs .nav-tabs > li{ padding:20px 0px 8px 0px; margin-right:30px;}
+.resources-tabs .nav-tabs > li.active{ border-bottom:3px solid #2a479d;}
+.resources-tabs-bg{ background-color:#eaf4fe; padding:0px 0 50px 0;}
+.resources-tabs .panel{ border:0px; box-shadow:none; margin:50px 0 0 0; border-radius:0; background-color:#4a79cc;}
+.resources-tabs .panel-body h5{ color:#fff; font-size:18px; font-weight:500; padding-left:10px;}
+.tab-box{ margin:30px 6% 0 0;  background-color:#fff; min-height:186px; width:15%; box-shadow: 0px 0px 10px #dce5ef; float:left;}
+.tab-box.m-r-0{ margin-right:0px;}
+.tab-section a{ padding:25px 10px 25px; display:block;}
+.tab-section span{ display:block; color:#313e50; margin-top:16px;}
+.resources-tabs .panel.blue-panel{ background-color:#01a7bb;}
+.resources-tabs .panel.orange-panel{ background-color:#f06a41;}
+
+/* ============================== Our Company Page Styles ==============================*/
+.company-bg{ background: url(../images/company-bg.png) no-repeat top center; background-size:cover; width:100%; position:relative;}
+.company-bg h2{ color:#fff;}
+.company-bg .banner-text{ padding:9% 0;}
+.company-bg img{ padding-top:30px;}
+.p-b-7{ padding-bottom:7px;}
+.grey-bg{ background-color:#efeff0; border:5px solid #fff; padding:30px 15px;}
+.quick-fact{ background-color:#eaf4fe; padding-bottom:60px;}
+.quick-fact h6{ font-size:30px; font-weight:bold; color:#313e50;}
+.quick-fact p{ color:#434344; font-size:20px;}
+.quick-fact .fact-pad{ padding-top:2.4%;}
+.our-company .p-b-18{ padding-bottom:18px;}
+
+/* ============================== FAQ  Page Styles ==============================*/
+.faq-bg{ background: url(../images/faq-bg.png) no-repeat top center; background-size:cover; width:100%; position:relative;}
+.faq-accordian .panel{ margin-bottom:13px;}
+.white-form{ background-color:#fff; padding:15px 0 40px 0; margin-top:15px; border-radius:8px;}
+.white-form h4{ color:#1b2b5c; font-weight:500; padding:0px 10px 20px 10px; font-weight:600; border-bottom:1px solid #aaacb1; margin-bottom:25px;}
+.faq-form{ width:50%; margin:0px auto;}
+.faq-form .form-control{ height:40px; color:#aaacb1; border:1px solid #bfc1c5;}
+.ask-us, .submit{ background-color:#1f2f60; margin-top:10px; width:46%; text-align:center; font-size:16px; padding:7px 0;}
+.faq-form .form-group{ margin-bottom:10px;}
+.faq-accordian .panel{ background-color:#fff;}
+
+/* ============================== Contact Us Page Styles ==============================*/
+.contact-bg{ background: url(../images/contact-bg.png) no-repeat top center; background-size:cover; width:100%; position:relative;}
+.contact-form{ background-color:#eaf4fe; padding:30px 10px; margin-bottom:50px; display:block; float:left;}
+.contact-form h6{ color:#313e50; font-size:20px; margin-bottom:5px; padding-left:15px;}
+.contact-form p{ margin-bottom:10px; padding-left:15px;}
+.contact-form textarea{ height:155px;}
+.form-control{ color:#aaacb1;}
+.select-dropdown select{ margin-top:0px;}
+.contact-form .submit{ width:35%;}
+.contact-us h6{ color:#2a479d; font-size:17px; margin-top:3px;}
+.contact-form .p-r-30{ padding-right:15px;}
+.contact-us h4{ margin:0 0 7px 0; }
+.contact-us .help{ margin-bottom:15px; border-bottom:1px solid #d4d5d8; padding-bottom:15px;}
+
+/* ============================== Blog Page Styles ==============================*/
+.blog-blue-bg{ background-color:#537dc6;}
+.blog-blue-bg h2{ font-size:39px; color:#eaf4fe; padding:4% 0;}
+.blog-blue-bg h2 span{ font-weight:800;}
+.blog-section a{ margin:5px 0 7px 0; color:#2a479d; font-weight:600; font-size:18px; display:block;}
+.blog-section span{ color:#aaacb1; font-size:14px;}
+.blog-section p{ padding:10px 0 20px 0; border-bottom:1px solid #d7d8db;}
+.blog-name p{ background: url(../images/blog-icon.png) no-repeat left center; border-bottom:none; padding:4px 0 0 20px; color:#4a79cc;}
+.blog-categories{ padding-bottom:25px; border-bottom:2px solid #2a479d; margin-bottom:15px;}
+.blog-btn{ background:transparent; font-size:17px; color:#4a79cc;}
+.blog-btn:hover{color:#4a79cc;}
+.blog-right .panel-primary > .panel-heading{ background-color:#1b2b5c; padding:15px 25px; font-size:16px;}
+.blog-right .panel-body{ background-color:#eaf4fe; padding:12px 0px 15px 34px;}
+.blog-right .panel-primary{ border:none;}
+.blog-right .checkbox{ color:#313e50; font-size:16px; padding-left:15px; margin-bottom:23px;}
+
+/* ============================== Checkbox Styles ==============================*/
+.checkbox label { position: relative;}
+.checkbox span::before,
+.checkbox span::after { content: ''; position: absolute; top: 0; bottom: 0; margin: auto;}
+.checkbox span.checkbox::before { width: 23px; height: 23px; background-color: #fff; left: -22px; box-sizing: border-box; border: 2px solid #b2c6cd; border-radius:5px;}
+.checkbox span.checkbox::after { content: '\f00c'; font-family: 'FontAwesome'; left: -31px; color: transparent;}
+.checkbox input[type="checkbox"]:checked + label span.checkbox::after { color: #4a79cc; padding-left:13px;}
+
+
+/* ============================== Partner Page Styles ==============================*/
+.partner-bg{ background: url(../images/partner-bg.png) no-repeat top center; background-size:cover; width:100%; position:relative;}
+.partner-bg h2{ color:#fff;}
+.partner-bg h5{ color:#fff; margin-top:15px;}
+.partner-tabs ul{ margin-top:20px;}
+.partner-tabs li{ width:100%; border-bottom:1px solid #d4d5d8;}
+.partner-tabs .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ background:#eaf4fe; border:none;}
+.partner-tabs .nav-tabs > li > a:hover{ border:none; color:#313e50;}
+.partner-tabs .nav-tabs > li > a{ border:none; color:#313e50; font-size:16px; padding:10px 10px 7px 10px;}
+.partner-tabs li:last-child{ border-bottom:none;}
+.partner-tabs h5{ font-size:16px; font-weight:600; color:#2a2a2b; margin-top:10px;}
+.border-p{ margin-bottom:20px; border-bottom:1px solid #d4d5d8; padding:15px 0;}
+.partner-tabs .panel-group .panel-heading + .panel-collapse .panel-body{ background:#fff; padding-bottom:35px;}
+.partner-tabs .x-close{ border:1px solid #aaacb1;}
+.partner-accordian-list ul{ margin:20px 0px 20px 15px; padding:0px; list-style-type:disc; color:#313e50;}
+.partner-accordian-list ul li{ border-bottom:none;}
+.partner-tabs .btn.btn-apply{ border:2px solid #3b70cd; color:#3b70cd; background:#fff; display:inline-block; padding:6px 50px; font-size:16px;}
+.partner-tabs .panel-default > .panel-heading{border:1px solid #aaacb1; border-radius:0; border-bottom:none;}
+.partner-tabs .panel-group .panel{ margin:0px;}
+.partner-tabs .panel-group .panel:last-child{ border-bottom:1px solid #aaacb1;}
+.perks-list ul{ padding:0px; list-style-type:disc; color:#2a479d; margin-left:15px;}
+.perks-list ul li{ float:none;}
+.partner-blue-bg{ background:#1b2b5c;}
+.partner-blue-bg h2{ color:#fff; padding-top:7px;}
+.partner-padding{ padding:6% 7% 5.4% 7%;}
+.partner-blue-bg .middle select{ height:42px; font-size:16px;}
